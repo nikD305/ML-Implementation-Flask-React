@@ -1,0 +1,12 @@
+1)num1 num2 useState is created to store input and send it to backend for prediction
+
+2)When the submit button is clicked handleSubmit() function will run 
+
+3) and there it will fetch the localhost5000 and call the function predict from app.py
+
+  i.e when it goes to the localhost5000/predict then automatically predict() will run
+
+4) then  rating = predict_rating(num1, num2) here predict_rating() fucntion will call the predic.py
+  by sending input , in predict.py will take input and send back the predicted value "rating",
+
+and then this rating is sent back to App.js to display.
